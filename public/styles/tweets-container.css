@@ -1,0 +1,53 @@
+
+
+article.tweet { /* Article and container */
+  height: 350px;
+  width: 1041px;
+  text-align: center;
+  position: relative;
+  border: 5px solid black;
+  left: 125px;
+}
+.tweet .header2 { /*header inside of container*/
+  width: 100%;
+  height: 200px;
+}
+.tweet .header2 img {
+  float: left;
+  height: 100px;
+  width: auto;
+  display: inline-block;
+}
+.tweet .header2 p1 {
+  display: inline-block;
+  float: left;
+}
+.tweet .header2 p2 {
+  display: inline-block;
+  float: right
+}
+.tweet .footer {
+  width: 100%;
+  height: 20px;
+  float: left;
+}
+
+.tweet .footer textarea{
+  width: 100%;
+  position: relative;
+  text-align: bottom;
+}
+
+.tweet2 .footer p {
+  display: inline-block;
+  text-align: right;
+}
+
+article.tweet:hover {
+  box-shadow: 15px 15px 0px 5px rgba(0, 0, 0, 0.1);
+  /* background-color:grey; */
+}
+
+.tweet-list {
+  padding: 50px
+}
